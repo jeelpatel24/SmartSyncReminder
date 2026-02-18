@@ -72,13 +72,8 @@ Example commands (run from project root):
 git status
 git add -A
 git commit -m "Add README and sync improvements"
-# If you don't have a remote yet:
-# git remote add origin git@github.com:<owner>/<repo>.git
-# Push:
-git push origin HEAD
-```
 
-Replace `<owner>/<repo>` and `origin`/branch names as appropriate.
+```
 
 ## Notes
 - Debug logging is present in development code. Remove or reduce logs before publishing.
